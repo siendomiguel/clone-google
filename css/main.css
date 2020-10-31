@@ -63,6 +63,7 @@ main .main-input {
     margin: 0 auto;
     margin-bottom: 35px;
 }
+/*contenedor externo creado para ser ahora el input*/
 main .main-input-container {
     width: 525px;
     border-radius: 100px;
@@ -77,4 +78,27 @@ main .main-input input {
     height: 40px;
     border: none;
     outline: none;
+}
+/*Dando sombras al input*/
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+/*Agregando los iconos que estan dentro del input*/
+main .main-input .icon-lupa {
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+main .main-input .icon-micro {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
 }
