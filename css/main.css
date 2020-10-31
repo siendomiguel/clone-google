@@ -86,19 +86,20 @@ main .main-input-container:hover {
 }
 /*Agregando los iconos que estan dentro del input*/
 main .main-input .icon-lupa {
-    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
+    opacity: .75;
 }
 main .main-input .icon-micro {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     cursor: pointer;
 }
